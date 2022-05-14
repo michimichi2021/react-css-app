@@ -4,7 +4,7 @@ export const InlineStyle = () => {
     borderRadius: "20px",
     padding: "8px",
     margin: "8px",
-    displau: "flex",
+    display: "flex",
     justifyContent: "space-around",
     alignItems: "center"
   };
@@ -20,6 +20,7 @@ export const InlineStyle = () => {
     padding: "8px",
     borderRadius: "8px"
   };
+
   return (
     <div style={containerStyle}>
       <p style={titleStyle}>- Inline Styles-</p>
